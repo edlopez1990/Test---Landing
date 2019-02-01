@@ -1,0 +1,295 @@
+@media(max-width: 1024px){
+
+
+}
+
+@media(max-width: 768px){
+  body{
+    header{
+      .header{
+        //position: fixed;
+      }
+      .content-header{
+        .left-text{
+          display: none;
+        }
+        .center-text{
+          text-align: center;
+          width: auto;
+          left: 0;
+          h2{
+            font-size: 35px;
+          }
+          label::after{
+            left: 0px;
+            right: 0px;
+            margin: auto;
+          }
+          p::before{
+            left: 0px;
+            right: 0px;
+            margin: auto;
+          }
+        }
+        .right-text{
+          display: none;
+        }
+      }
+    }
+    section.content-about{
+      h1{
+        font-size: 30px;
+      }
+      .grid-about{
+        .item {
+          .image{
+            width: 90%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            margin: auto;
+          }
+          .description{
+            width: 100%;
+            span,h2,p{
+              padding-left: 0px;
+              text-align: center;
+            }
+            p::before{
+              left: 0%;
+              right: 0;
+              margin: auto;
+            }
+          }
+        }
+        .item:nth-child(2){
+          display: flex;
+          flex-direction: column-reverse;
+        }
+      }
+    }
+    section.about{
+      .image{
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
+      
+    }
+    section.content-info{
+      .item{
+        width: 100%;
+        text-align: center;
+        h2::after{
+          margin: 20px auto 10px auto;
+        }
+      }
+      .item:first-child {
+          margin-left: 0%;
+      }
+    } 
+    section.content-logo{
+      .logo{
+        width: 100%;
+      }
+    }
+    section.my-work{
+      .title{
+        text-align: center;
+        h2{
+          font-size: 30px;
+        }
+        h2::after{
+          left: 0px;
+          right: 0px;
+          margin: auto;
+        }
+        p{
+          width: auto;
+        }
+      }
+      .grid-work{
+        display: block;
+        height: auto;
+        .fila{
+          width: 100%;
+          float: none;
+          height: auto;
+          .item{
+              height: 400px !important;
+              display: block !important;
+              width: 100% !important;
+              float: none !important;
+            .informacion {
+                padding: 5% 10%;
+                opacity: 1 !important;
+            }
+          }
+        }
+        .fila:last-child{
+          width: 100%;
+        }
+    
+        .fila:nth-child(1) {
+          .item:nth-child(1){
+            display: block;
+            height: 100%;
+            width: 100%;
+          }
+          .item:nth-child(2){
+            display: block;
+            height: 100%;
+            width: 100%
+          }
+        }
+      
+        
+        .fila:nth-child(2) {
+          .item{
+            display: block;
+            height: 100%;
+            width: 100%;
+          }
+        }
+        
+        .fila:nth-child(3) {
+          .item:nth-child(1){
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+          .item:nth-child(2){
+            display:block;
+            width: 100%;
+            height: 100%;
+            float: left;
+          }
+          .item:nth-child(3){
+            display:block;
+            width: 100%;
+            height: 100%;
+            float: left;
+          }
+        }
+      }
+      
+    }
+    section.testimonials{
+      h2{
+        font-size: 30px;
+      }
+      .count{
+        .item{
+          width: 100%;
+          label{
+            text-align: center;
+            margin: 0px auto 0px auto;
+          }
+          label::before{
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 43px;
+          }
+          label::after{
+            left: 0px;
+            right: 0px;
+            margin: auto;
+          }
+        }
+        .item:first-child {
+            margin-left: 0%;
+        }
+      }
+      .content-testimonials {
+        .box-testimonials{
+          margin-left: 0px;
+          width: 100%;
+          height: auto;
+          .item{
+            width: 100%;
+            .information {
+              text-align: center;
+              background: none;
+              height: auto;
+              width: auto;
+              .text{
+                right: auto;
+                top: 30%;
+                margin-top: 25px;
+                position: initial;
+                width: auto;
+              }
+              .text::before{
+                margin: auto;
+                left: 0;
+                right: 0;
+                top: auto;
+              }
+              .image{
+                margin-left: 0%;
+              }
+            }
+          }
+        }
+        .navs{
+          width: 100%;
+          padding: 0px 10px;
+        }
+      }
+    }
+    section.price{
+      .content-price{
+        .item{
+          width: 100%;
+        }
+      }
+    }
+    section.content-contact 
+    {
+      .box{
+        width: 100%;
+        text-align: center;
+        h2::after{
+          right: 0px;
+          left: 0px;
+          margin: auto;
+        }
+        .text{
+          width: 100%;
+          p{
+            width: 100%;
+          }
+          label:after{
+            left: 0;
+            right: 0;
+            margin: auto;
+          }
+        }
+        #map{
+          width: 100%;
+        }
+      }
+    }
+    section.form-newsletter{
+      h2{
+        font-size: 30px;
+      }
+      form{
+        width: 100%;
+        padding: 0px 5px;
+      }
+    }
+     footer{
+      .item {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+      .item:first-child {
+          margin-left: 0%;
+      }
+     }
+  } 
+}

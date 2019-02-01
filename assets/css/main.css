@@ -1,0 +1,1625 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #111111;
+  /*---01 Header---*/
+  /*---02 About---*/
+  /*---03 My work---*/
+  /*---04 Testimonials---*/
+}
+
+body section {
+  z-index: 1;
+}
+
+body .header-about, body .header-contact {
+  background: none !important;
+}
+
+body header {
+  background: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding: 60px 0px;
+  z-index: 5;
+}
+
+body header .header {
+  width: 100%;
+  z-index: 3;
+  height: auto;
+  position: fixed;
+  width: 100%;
+}
+
+body header .header .menu-top {
+  padding: 0px 50px;
+}
+
+body header nav {
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  float: right;
+  height: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav ul {
+  list-style: none;
+}
+
+body header nav ul li {
+  display: inline-block;
+}
+
+body header nav ul li a {
+  color: #fff;
+  width: 100px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+body header nav ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+body header nav ul li a:hover:after {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: -15px;
+  left: 0px;
+  right: 0px;
+  width: 50px;
+  height: 25px;
+  z-index: -1;
+}
+
+body header .content-header {
+  position: relative;
+  min-height: 600px;
+}
+
+body header .content-header .left-text {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .content-header .left-text a {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  padding: 20px 20px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+body header .content-header .center-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  padding: 40px 5%;
+  max-width: 800px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  margin-top: -200px;
+}
+
+body header .content-header .center-text span {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #fff;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+body header .content-header .center-text h2 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  color: #fff;
+  margin: 20px 0px;
+}
+
+body header .content-header .center-text p {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 26px;
+  position: relative;
+}
+
+body header .content-header .center-text p::before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100px;
+  background: #fff;
+  margin: 30px 0px;
+  margin-left: -50px;
+}
+
+body header .content-header .center-text label {
+  display: block;
+  position: relative;
+}
+
+body header .content-header .center-text label a {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 60px;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+}
+
+body header .content-header .center-text label::after {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: -14px;
+  left: -25px;
+  width: 100px;
+  height: 25px;
+  z-index: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+body header .content-header .right-text {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  position: absolute;
+  height: 100%;
+  width: 60px;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .content-header .right-text a {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  padding: 20px 20px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+body header .content-header .right-text a:before {
+  content: " ";
+  height: 60px;
+  width: 1px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0px 7px 30px 0px;
+  position: absolute;
+  top: -60px;
+  left: 25px;
+}
+
+body section.about {
+  width: 80%;
+  display: block;
+  text-align: center;
+  margin: 100px auto;
+  position: relative;
+  background-color: #111111;
+}
+
+body section.about h2 {
+  position: absolute;
+  z-index: 1;
+  font-family: 'Poppins';
+  font-size: 200px;
+  font-weight: bold;
+  color: #0f0f0f;
+  letter-spacing: 30px;
+  line-height: 154px;
+  left: -4%;
+  height: 154px;
+  text-align: center;
+  top: 20%;
+  overflow: hidden;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+body section.about .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  position: relative;
+}
+
+body section.about .image img {
+  width: 70%;
+  z-index: 2;
+  position: relative;
+  -webkit-box-shadow: 2px 2px 40px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 40px 0px rgba(0, 0, 0, 0.75);
+}
+
+body section.about .image .line {
+  display: block;
+  width: 1px;
+  height: 100px;
+  background: #fff;
+  margin: -60px auto;
+  z-index: 3;
+  position: relative;
+}
+
+body section.about .image::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0%;
+  top: 100px;
+  height: 60px;
+  width: 60px;
+  background: url(../img/point-top-about.png) no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  z-index: 1;
+  transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+
+body section.about .image::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 0%;
+  bottom: 25%;
+  height: 200px;
+  width: 200px;
+  background: url(../img/point-about.png) no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  z-index: 1;
+  transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+
+body section.about label {
+  display: block;
+  position: relative;
+  width: 170px;
+  margin: 0px auto 40px auto;
+}
+
+body section.about label h3 {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 50px;
+  color: #fff;
+  letter-spacing: 4px;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+body section.about label::after {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: 33px;
+  left: -25px;
+  width: 180px;
+  height: 25px;
+  z-index: 1;
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+body section.about p {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 26px;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+body section.about span {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  line-height: 26px;
+  position: relative;
+  margin-top: 20px;
+}
+
+body section.my-work .title {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+body section.my-work .title h2 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #fff;
+  margin: 20px 0px;
+  z-index: 2;
+  position: relative;
+}
+
+body section.my-work .title h2::after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100px;
+  background: #fff;
+  margin: 30px 0px;
+  margin-left: -50px;
+}
+
+body section.my-work .title p {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  line-height: 26px;
+  position: relative;
+  margin-top: 20px;
+  z-index: 2;
+  width: 50%;
+}
+
+body section.my-work .title b {
+  position: absolute;
+  z-index: 1;
+  font-family: 'Poppins';
+  font-size: 200px;
+  font-weight: bold;
+  color: #0f0f0f;
+  letter-spacing: 30px;
+  line-height: 154px;
+  height: 154px;
+  text-align: center;
+  bottom: -10%;
+  left: -10%;
+  overflow: hidden;
+}
+
+body section.my-work .more-gallery {
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  padding: 20px 0px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 5%;
+}
+
+body section.my-work .more-gallery:before {
+  content: " ";
+  height: 1px;
+  width: 60px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0px 7px 30px 0px;
+  position: absolute;
+  top: 26px;
+  left: -75px;
+}
+
+body .grid-work {
+  z-index: 2;
+  position: relative;
+  display: block;
+  height: 912px;
+}
+
+body .grid-work .fila {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+body .grid-work .fila .item {
+  border: 1px solid #111;
+  background-position: 50% 50%;
+}
+
+body .grid-work .fila .item .informacion {
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  display: block;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  position: relative;
+}
+
+body .grid-work .fila .item .informacion label {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #929292;
+  line-height: 20px;
+  position: relative;
+}
+
+body .grid-work .fila .item .informacion span {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+}
+
+body .grid-work .fila .item .informacion:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: url(../img/icon-info.png) no-repeat;
+  background-position: 50% 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+body .grid-work .fila .item:hover .informacion {
+  opacity: 1;
+}
+
+body .grid-work .fila:last-child {
+  width: 50%;
+}
+
+body .grid-work .fila:nth-child(1) .item:nth-child(1) {
+  display: block;
+  height: 50%;
+  width: 100%;
+  background: url(../img/gallery1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body .grid-work .fila:nth-child(1) .item:nth-child(2) {
+  background: url(../img/gallery3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 50%;
+  width: 100%;
+}
+
+body .grid-work .fila:nth-child(2) .item {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: url(../img/gallery2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body .grid-work .fila:nth-child(3) .item:nth-child(1) {
+  display: block;
+  width: 100%;
+  height: 50%;
+  background: url(../img/gallery4.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body .grid-work .fila:nth-child(3) .item:nth-child(2) {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 50%;
+  float: left;
+  background: url(../img/gallery5.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body .grid-work .fila:nth-child(3) .item:nth-child(3) {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 50%;
+  float: left;
+  background: url(../img/gallery6.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body section.testimonials {
+  z-index: 2;
+  position: relative;
+  display: block;
+  padding-top: 60px;
+  margin-top: 40px;
+}
+
+body section.testimonials h2 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #fff;
+  margin: 40px 0px;
+  z-index: 3;
+  position: relative;
+  text-align: center;
+}
+
+body section.testimonials h2::after {
+  content: " ";
+  display: block;
+  height: 100px;
+  width: 1px;
+  background: #fff;
+  margin: 30px auto;
+}
+
+body section.testimonials .count .item {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  text-align: left;
+}
+
+body section.testimonials .count .item h3 {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+body section.testimonials .count .item label {
+  display: block;
+  position: relative;
+  width: 170px;
+  margin: 0px auto 40px auto;
+}
+
+body section.testimonials .count .item label span {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  line-height: 26px;
+  position: relative;
+  margin-top: 6px;
+  z-index: 3;
+}
+
+body section.testimonials .count .item label::after {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: 22px;
+  left: -10px;
+  width: 100px;
+  height: 20px;
+  z-index: 1;
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+body section.testimonials .count .item label::before {
+  content: " ";
+  display: block;
+  background: #fff;
+  height: 1px;
+  width: 60px;
+  position: absolute;
+  top: 40px;
+  left: -80px;
+}
+
+body section.testimonials .count .item:first-child {
+  margin-left: 9%;
+}
+
+body section.testimonials .content-testimonials {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+body section.testimonials .content-testimonials .box-testimonials {
+  display: block;
+  width: 120%;
+  height: 400px;
+  margin-left: -10%;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item {
+  width: 33.33%;
+  display: block;
+  float: left;
+  height: 100%;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information {
+  height: 80%;
+  width: 80%;
+  background: url(../img/testimonial-bg.png) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: 10%;
+  position: relative;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information b {
+  font-size: 30px;
+  display: block;
+  font-family: 'Poppins';
+  letter-spacing: 5px;
+  color: #fff;
+  line-height: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 3;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 200px;
+  margin-top: 15%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information .image img {
+  width: 80%;
+  margin: auto;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information .image h3 {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 30px;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information .image span {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 20px;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information .text {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  color: #fff;
+  position: absolute;
+  right: -40px;
+  top: 30%;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information .text p {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 8px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+  margin-top: 40px;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information .text::before {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: 1px;
+  position: absolute;
+  left: -50px;
+  top: 9px;
+  background: #fff;
+}
+
+body section.testimonials .content-testimonials .box-testimonials .item .information::before {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: 29px;
+  left: -20px;
+  width: 60px;
+  height: 20px;
+  z-index: 1;
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+body section.testimonials .content-testimonials .navs {
+  display: block;
+  width: 500px;
+  height: 20px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+body section.testimonials .content-testimonials .navs .next {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+  float: left;
+  text-align: left;
+  cursor: pointer;
+}
+
+body section.testimonials .content-testimonials .navs .next:before {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: 1px;
+  position: absolute;
+  left: 60px;
+  top: 9px;
+  background: #fff;
+}
+
+body section.testimonials .content-testimonials .navs .count {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+  float: left;
+}
+
+body section.testimonials .content-testimonials .navs .prev {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+  float: left;
+  text-align: right;
+  cursor: pointer;
+}
+
+body section.testimonials .content-testimonials .navs .prev:before {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: 1px;
+  position: absolute;
+  right: 60px;
+  top: 9px;
+  background: #fff;
+}
+
+body section.price {
+  z-index: 2;
+  position: relative;
+  display: block;
+  padding-top: 60px;
+}
+
+body section.price .title {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+body section.price .title h2 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #fff;
+  margin: 20px 0px;
+  z-index: 3;
+  position: relative;
+}
+
+body section.price .title h2::after {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 100px;
+  background: #fff;
+  margin: 30px 0px;
+  margin-left: -50px;
+}
+
+body section.price .title p {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #fff;
+  line-height: 26px;
+  position: relative;
+  margin-top: 20px;
+  z-index: 3;
+  width: 50%;
+}
+
+body section.price .title b {
+  position: absolute;
+  z-index: 1;
+  font-family: 'Poppins';
+  font-size: 200px;
+  font-weight: bold;
+  color: #0f0f0f;
+  letter-spacing: 30px;
+  line-height: 154px;
+  height: 154px;
+  text-align: center;
+  bottom: -10%;
+  left: -10%;
+  overflow: hidden;
+}
+
+body section.price .content-price {
+  height: 912px;
+  z-index: 2;
+  position: relative;
+  display: block;
+}
+
+body section.price .content-price .item {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  padding: 5% 40px;
+  position: relative;
+}
+
+body section.price .content-price .item label {
+  display: block;
+  position: relative;
+  width: 170px;
+  margin: 0px 0px 40px 0px;
+}
+
+body section.price .content-price .item label::after {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: 60px;
+  left: -25px;
+  width: 180px;
+  height: 25px;
+  z-index: 1;
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+body section.price .content-price .item h2 {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  letter-spacing: 3px;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+}
+
+body section.price .content-price .item h4 {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #929292;
+  line-height: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+body section.price .content-price .item span {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+}
+
+body section.price .content-price .item:nth-child(1) {
+  background: url(../img/overlay1.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+body section.price .content-price .item:nth-child(2) {
+  background: url(../img/overlay2.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+body section.price .content-price .item:nth-child(3) {
+  background: url(../img/overlay3.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+body section.price .content-price .item:nth-child(4) {
+  background: url(../img/overlay4.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+body section.price .content-price .item:last-child .number-item {
+  font-size: 14px;
+  bottom: 46px;
+}
+
+body section.price .content-price .number-item {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 0px;
+  z-index: 2;
+  text-decoration: none;
+}
+
+body section.price .content-price .explore {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  padding: 7px 0px;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+body section.price .content-price .explore::before {
+  content: " ";
+  height: 1px;
+  width: 60px;
+  background: #fff;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0px 7px 30px 0px;
+  position: absolute;
+  top: 13px;
+  left: -75px;
+}
+
+body section.content-logo {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+body section.content-logo .logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  text-align: center;
+  overflow: hidden;
+  margin: 40px 0px;
+}
+
+body section.form-newsletter h2 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-style: italic;
+}
+
+body section.form-newsletter h2:after {
+  content: " ";
+  display: block;
+  height: 100px;
+  width: 1px;
+  background: #fff;
+  margin: 50px auto 0px auto;
+}
+
+body section.form-newsletter form {
+  width: 450px;
+  height: 70px;
+  position: relative;
+  margin: 60px auto 40px auto;
+}
+
+body section.form-newsletter form input[type=email] {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  background: transparent;
+  border: 1px solid #fff;
+  padding-left: 30px;
+  color: #fff;
+  border-right: none;
+  font-family: 'Poppins';
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+body section.form-newsletter form input[type=submit] {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  text-align: center;
+  border: 1px solid #fff;
+  background: transparent;
+  font-family: 'Poppins';
+  font-size: 12px;
+  line-height: 0px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+body section.content-about h1 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+}
+
+body section.content-about h1:before {
+  content: " ";
+  display: block;
+  width: 90px;
+  height: 60px;
+  background: url(../img/quote.png) no-repeat;
+  background-position: 50% 50%;
+  margin: 0px auto 40px auto;
+}
+
+body section.content-about h1:after {
+  content: " ";
+  display: block;
+  height: 100px;
+  width: 1px;
+  background: #fff;
+  margin: 50px auto 0px auto;
+}
+
+body section.content-about .grid-about {
+  display: block;
+  margin: auto;
+}
+
+body section.content-about .grid-about .item {
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+body section.content-about .grid-about .item .description {
+  display: inline-block;
+  vertical-align: top;
+  width: 59%;
+  padding: 40px 5%;
+}
+
+body section.content-about .grid-about .item .description span {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #fff;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+body section.content-about .grid-about .item .description h2 {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  color: #fff;
+  margin: 20px 0px;
+  padding-left: 30px;
+}
+
+body section.content-about .grid-about .item .description p {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 26px;
+  padding-left: 100px;
+  position: relative;
+}
+
+body section.content-about .grid-about .item .description p:before {
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 70px;
+  top: 8px;
+  left: -2%;
+  background: #fff;
+  position: absolute;
+}
+
+body section.content-about .grid-about .item .image {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  position: relative;
+}
+
+body section.content-about .grid-about .item .image b {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 80px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  left: -40px;
+  top: -60px;
+  z-index: 3;
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+body section.content-about .grid-about .item .image img {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+body section.content-about .grid-about .item .image::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: -60px;
+  bottom: -60px;
+  height: 140px;
+  width: 140px;
+  background: url(../img/point-about.png) no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  z-index: 1;
+  transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+}
+
+body section.content-about .grid-about .item:hover b {
+  top: -40px;
+}
+
+body section.content-about .grid-about .item:hover b .image:after {
+  right: -40px;
+  bottom: -40px;
+}
+
+body section.content-info {
+  margin: 150px 0px 100px 0px;
+  display: block;
+}
+
+body section.content-info .item {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(98% / 3);
+  text-align: left;
+}
+
+body section.content-info .item h2 {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+body section.content-info .item h2:after {
+  content: " ";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #fff;
+  margin: 20px 0px 10px 0px;
+}
+
+body section.content-info .item h3 {
+  display: block;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+body section.content-info .item label {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #969696;
+  line-height: 24px;
+}
+
+body section.content-video {
+  display: block;
+  margin: 100px 0px;
+  height: 500px;
+  background: url(../img/video.jpg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+body section.content-video .play {
+  font-family: 'Poppins';
+  font-size: 12px;
+  line-height: 0px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background: #111111;
+  width: 100px;
+  border-radius: 400px;
+  text-align: center;
+  padding: 50px 0px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+body section.content-contact {
+  padding: 80px 0px 60px 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+body section.content-contact h1 {
+  position: absolute;
+  z-index: 1;
+  font-family: 'Poppins';
+  font-size: 200px;
+  font-weight: bold;
+  color: #0f0f0f;
+  letter-spacing: 20px;
+  line-height: 154px;
+  bottom: 0px;
+  right: -150px;
+}
+
+body section.content-contact .box {
+  margin: auto;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+body section.content-contact .box h2 {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 58px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 4px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+body section.content-contact .box h2:after {
+  content: " ";
+  width: 100px;
+  height: 1px;
+  position: absolute;
+  left: -50px;
+  bottom: 0px;
+  background: #fff;
+}
+
+body section.content-contact .box .text {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  padding-top: 30px;
+}
+
+body section.content-contact .box .text p {
+  display: block;
+  width: 90%;
+  display: block;
+  font-family: 'Poppins';
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 26px;
+}
+
+body section.content-contact .box .text label {
+  display: block;
+  position: relative;
+}
+
+body section.content-contact .box .text label:after {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: -14px;
+  left: -25px;
+  width: 100px;
+  height: 25px;
+  z-index: 1;
+  transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+}
+
+body section.content-contact .box .text a {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 140px;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+}
+
+body section.content-contact .box #map {
+  display: inline-block;
+  vertical-align: top;
+  width: 69%;
+  height: 450px;
+  -webkit-box-shadow: 2px 2px 40px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 40px 0px rgba(0, 0, 0, 0.75);
+}
+
+body footer {
+  padding: 50px 0% 20px 0%;
+  display: block;
+  z-index: 2;
+}
+
+body footer .item {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  text-align: left;
+}
+
+body footer .item h2 {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+body footer .item label {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 24px;
+}
+
+body footer .item label a {
+  display: inline-block;
+  text-decoration: underline;
+  line-height: 0px;
+}
+
+body footer .item a {
+  display: block;
+  font-family: 'Poppins';
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 24px;
+}
+
+body footer .item:first-child {
+  margin-left: 0%;
+}
+/*# sourceMappingURL=main.css.map */

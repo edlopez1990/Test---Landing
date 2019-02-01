@@ -1,0 +1,248 @@
+@media (max-width: 768px) {
+  body header .content-header .left-text {
+    display: none;
+  }
+  body header .content-header .center-text {
+    text-align: center;
+    width: auto;
+    left: 0;
+  }
+  body header .content-header .center-text h2 {
+    font-size: 35px;
+  }
+  body header .content-header .center-text label::after {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  body header .content-header .center-text p::before {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  body header .content-header .right-text {
+    display: none;
+  }
+  body section.content-about h1 {
+    font-size: 30px;
+  }
+  body section.content-about .grid-about .item .image {
+    width: 90%;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  body section.content-about .grid-about .item .description {
+    width: 100%;
+  }
+  body section.content-about .grid-about .item .description span, body section.content-about .grid-about .item .description h2, body section.content-about .grid-about .item .description p {
+    padding-left: 0px;
+    text-align: center;
+  }
+  body section.content-about .grid-about .item .description p::before {
+    left: 0%;
+    right: 0;
+    margin: auto;
+  }
+  body section.content-about .grid-about .item:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body section.about .image {
+    width: 100%;
+  }
+  body section.about .image img {
+    width: 100%;
+  }
+  body section.content-info .item {
+    width: 100%;
+    text-align: center;
+  }
+  body section.content-info .item h2::after {
+    margin: 20px auto 10px auto;
+  }
+  body section.content-info .item:first-child {
+    margin-left: 0%;
+  }
+  body section.content-logo .logo {
+    width: 100%;
+  }
+  body section.my-work .title {
+    text-align: center;
+  }
+  body section.my-work .title h2 {
+    font-size: 30px;
+  }
+  body section.my-work .title h2::after {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  body section.my-work .title p {
+    width: auto;
+  }
+  body section.my-work .grid-work {
+    display: block;
+    height: auto;
+  }
+  body section.my-work .grid-work .fila {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+  body section.my-work .grid-work .fila .item {
+    height: 400px !important;
+    display: block !important;
+    width: 100% !important;
+    float: none !important;
+  }
+  body section.my-work .grid-work .fila .item .informacion {
+    padding: 5% 10%;
+    opacity: 1 !important;
+  }
+  body section.my-work .grid-work .fila:last-child {
+    width: 100%;
+  }
+  body section.my-work .grid-work .fila:nth-child(1) .item:nth-child(1) {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  body section.my-work .grid-work .fila:nth-child(1) .item:nth-child(2) {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  body section.my-work .grid-work .fila:nth-child(2) .item {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  body section.my-work .grid-work .fila:nth-child(3) .item:nth-child(1) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  body section.my-work .grid-work .fila:nth-child(3) .item:nth-child(2) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  body section.my-work .grid-work .fila:nth-child(3) .item:nth-child(3) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+  }
+  body section.testimonials h2 {
+    font-size: 30px;
+  }
+  body section.testimonials .count .item {
+    width: 100%;
+  }
+  body section.testimonials .count .item label {
+    text-align: center;
+    margin: 0px auto 0px auto;
+  }
+  body section.testimonials .count .item label::before {
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 43px;
+  }
+  body section.testimonials .count .item label::after {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  body section.testimonials .count .item:first-child {
+    margin-left: 0%;
+  }
+  body section.testimonials .content-testimonials .box-testimonials {
+    margin-left: 0px;
+    width: 100%;
+    height: auto;
+  }
+  body section.testimonials .content-testimonials .box-testimonials .item {
+    width: 100%;
+  }
+  body section.testimonials .content-testimonials .box-testimonials .item .information {
+    text-align: center;
+    background: none;
+    height: auto;
+    width: auto;
+  }
+  body section.testimonials .content-testimonials .box-testimonials .item .information .text {
+    right: auto;
+    top: 30%;
+    margin-top: 25px;
+    position: initial;
+    width: auto;
+  }
+  body section.testimonials .content-testimonials .box-testimonials .item .information .text::before {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: auto;
+  }
+  body section.testimonials .content-testimonials .box-testimonials .item .information .image {
+    margin-left: 0%;
+  }
+  body section.testimonials .content-testimonials .navs {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  body section.price .content-price .item {
+    width: 100%;
+  }
+  body section.content-contact .box {
+    width: 100%;
+    text-align: center;
+  }
+  body section.content-contact .box h2::after {
+    right: 0px;
+    left: 0px;
+    margin: auto;
+  }
+  body section.content-contact .box .text {
+    width: 100%;
+  }
+  body section.content-contact .box .text p {
+    width: 100%;
+  }
+  body section.content-contact .box .text label:after {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  body section.content-contact .box #map {
+    width: 100%;
+  }
+  body section.form-newsletter h2 {
+    font-size: 30px;
+  }
+  body section.form-newsletter form {
+    width: 100%;
+    padding: 0px 5px;
+  }
+  body footer .item {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  body footer .item:first-child {
+    margin-left: 0%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
