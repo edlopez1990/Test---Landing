@@ -1,4 +1,93 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html *,
+html *:before,
+html *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,7 +108,8 @@ body section {
   z-index: 1;
 }
 
-body .header-about, body .header-contact {
+body .header-about,
+body .header-contact {
   background: none !important;
 }
 
@@ -100,6 +190,19 @@ body header nav ul li a:hover:after {
   z-index: -1;
 }
 
+body header nav ul li a.active:after {
+  content: " ";
+  display: block;
+  background: #6633ff;
+  position: absolute;
+  top: -15px;
+  left: 0px;
+  right: 0px;
+  width: 50px;
+  height: 25px;
+  z-index: -1;
+}
+
 body header .content-header {
   position: relative;
   min-height: 600px;
@@ -143,7 +246,7 @@ body header .content-header .center-text {
   padding: 40px 5%;
   max-width: 800px;
   position: absolute;
-  left: 10%;
+  left: 6.5%;
   top: 50%;
   margin-top: -200px;
 }
@@ -418,7 +521,6 @@ body section.about span {
 }
 
 body section.my-work .title {
-  width: 80%;
   margin: auto;
   position: relative;
   padding-bottom: 100px;
@@ -947,7 +1049,6 @@ body section.price {
 }
 
 body section.price .title {
-  width: 80%;
   margin: auto;
   position: relative;
   padding-bottom: 100px;
@@ -1262,6 +1363,7 @@ body section.content-about h1:after {
 body section.content-about .grid-about {
   display: block;
   margin: auto;
+  padding: 0px 38px;
 }
 
 body section.content-about .grid-about .item {
